@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+:root {
+    --black: #000;
+    --dark-navy: #0a0a23;
+    --dark-grey: #d0d0d5;
+    --medium-grey: #dfdfe2;
+    --light-grey: #f5f6f7;
+    --peach: #f28373;
+    --salmon-color: #f0aea9;
+    --light-blue: #8bd9f6;
+    --light-orange: #f8b172;
+    --light-green: #93cb5b;
+    --golden-yellow: #f1ba33;
+    --gold: #f9aa23;
+    --green: #6bca6b;
+}
+
+body {
+    background-color: #8bd9f6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
