@@ -71,12 +71,42 @@ button {
 
 #display {
     width: 350px;
-    height: 250px;
+    min-height: 250px;
     background-color: #f5f6f7;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
 }
+
+.details {
+    padding: 5px;
+    text-align: center;
+}
+
+.sprite-container {
+  flex-grow: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#types {
+  min-height: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+
+.type {
+  width: 66px;
+  padding: 5px;
+  font-size: 0.7rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 
 table {
     width: 350px;
