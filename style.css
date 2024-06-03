@@ -28,16 +28,73 @@ body {
 h1 {
     margin: 25px 0;
     text-align: center;
-    color: var(--light-grey);
+    color: black;
+}
+
+#mainContainer {
+    background-color: lightgray;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 10px 10px lightcoral;
 }
 
 #inputDiv {
+    height: 80px;
     width: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
     flex-direction: column;
 }
+label {
+    margin-bottom: 10px;
+}
+input {
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+}
+button {
+    width: 80px;
+    height: 30px;
+    background-color: #f28373;
+    border-radius: 10px;
+}
 
+#display {
+    width: 350px;
+    height: 250px;
+    background-color: #f5f6f7;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
 
+table {
+    width: 350px;
+    margin: auto;
+    table-layout: fixed;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+}
+thead {
+    background-color: #f8b172;
+    height: 40px;
+}
+
+tr {
+    background-color: #f8b172;
+    height: 30px;
+}
+
+td {
+    text-align: center;
+}
